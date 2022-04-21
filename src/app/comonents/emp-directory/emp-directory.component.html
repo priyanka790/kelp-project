@@ -1,0 +1,200 @@
+<div class="main-container emp-det-wrapper" fxLayout="column" fxLayoutGap="20px">
+  <h2 class="bold">Offer Extended</h2>
+  <div fxLayout="row" fxLayoutAlign="space-between center" class="white-bg">
+    <div fxFlex="20">
+      <div fxLayout="row" fxLayoutGap="10px">
+        <img src="assets/images/svg/user-img.svg" height="40" width="40" class="full-bor-radius">
+        <div fxLayout="column">
+          <p>Anil Kapoor</p>
+          <p>Director Parimal enterprices</p>
+          <p>Mumbai</p>
+        </div>
+      </div>
+    </div>
+    <div fxFlex="50" fxLayout="row">
+      <div fxLayout="column" fxLayoutAlign="center start" class="separator-right p-20">
+        <p>Offer Extended on</p>
+        <p class="bold">21 Jul 2020</p>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center start" fxFlex="20" class="separator-right p-20">
+        <p>Offer Accepted on</p>
+        <p class="bold">23 Jul 2020</p>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center start" fxFlex="20" class="separator-right p-20">
+        <p>Date of Joining</p>
+        <p class="bold">21 Jul 2020</p>
+      </div>
+      <div fxLayout="column" fxLayoutAlign="center start" fxFlex="20" class="separator-right p-20">
+        <p>Joining Status</p>
+
+        <div fxLayout="column" fxLayoutAlign="center start" fxLayout="row">
+          <a class="rounded-circle green-bg">
+            <mat-icon class="thumb-ico">thumb_up_alt</mat-icon>
+          </a>
+          <a mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>arrow_drop_down</mat-icon>
+          </a>
+          <mat-menu #menu="matMenu">
+            <a fxLayout="row" mat-menu-item class="rounded-circle green-bg">
+              <mat-icon class="thumb-ico">thumb_up_alt</mat-icon>
+            </a>
+            <a fxLayout="row" mat-menu-item class="rounded-circle red-bg pt-15">
+              <mat-icon>thumb_down_alt</mat-icon>
+            </a>
+            <a fxLayout="row" mat-menu-item class="rounded-circle red-bg">
+              <mat-icon class="thumb-ico">thumb_up_alt</mat-icon>
+            </a>
+          </mat-menu>
+        </div>
+      </div>
+      <div fxFlex="20" fxLayout="column" fxLayoutAlign="space-around start" class="p-20">
+        <p>B.V</p>
+        <div fxLayout="row" fxLayoutAlign="start center">
+          <a class="rounded-circle green-bg">
+            <mat-icon class="thumb-ico">thumb_up_alt</mat-icon>
+          </a>
+          <a mat-icon-button [matMenuTriggerFor]="menuBv" aria-label="Example icon-button with a menu">
+            <mat-icon>arrow_drop_down</mat-icon>
+          </a>
+          <mat-menu #menuBv="matMenu">
+            <a fxLayout="row" mat-menu-item class="rounded-circle green-bg">
+              <mat-icon class="thumb-ico">thumb_up_alt</mat-icon>
+            </a>
+            <a fxLayout="row" mat-menu-item class="rounded-circle red-bg">
+              <mat-icon>thumb_down_alt</mat-icon>
+            </a>
+            <a fxLayout="row" mat-menu-item class="rounded-circle red-bg">
+              <mat-icon class="thumb-ico">thumb_up_alt</mat-icon>
+            </a>
+          </mat-menu>
+        </div>
+      </div>
+    </div>
+    <div fxFlex="30" fxLayout="row" fxLayoutAlign="start center">
+      <p>
+        Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet
+        vulputate.teame
+      </p>
+      <a mat-icon-button [matMenuTriggerFor]="menuToggle" aria-label="Example icon-button with a menu">
+        <mat-icon>more_vert</mat-icon>
+      </a>
+      <mat-menu #menuToggle="matMenu">
+        <button mat-menu-item>
+          <span>EDIT COMMENT</span>
+        </button>
+        <button mat-menu-item>
+          <span>HIDE CANDIDATE</span>
+        </button>
+      </mat-menu>
+    </div>
+  </div>
+  <div>
+    <h2 class="bold">Prospects</h2>
+    <div class="white-bg" fxLayout="row" fxLayoutAlign="space-around center">
+      <p>Candidate Details</p>
+      <p>Interview schedule</p>
+      <p>Reference Check</p>
+      <p>comments</p>
+    </div>
+  </div>
+
+  <div class="slider-wrapper">
+    <div fxLayout="row" class="full-height slider-img" fxLayoutGap="20px">
+      <img src="../../../assets/images/svg/user-img.svg">
+      <img src="../../../assets/images/svg/user-img.svg">
+      <img src="../../../assets/images/svg/user-img.svg">
+
+      <img src="../../../assets/images/svg/user-img.svg">
+      <div class="left-arrow">
+        <mat-icon class="arrow-ico">keyboard_arrow_left</mat-icon>
+      </div>
+      <div class="right-arrow">
+        <mat-icon class="arrow-ico">keyboard_arrow_left</mat-icon>
+      </div>
+    </div>
+
+  </div>
+  <!-- <div class="carousel-wrapper">
+    <mat-carousel
+    timings="250ms ease-in"
+    [autoplay]="true"
+    interval="5000"
+    color="primary"
+    maxWidth="300"
+    proportion="8"
+    slides="5"
+    [loop]="true"
+    [hideArrows]="false"
+    [hideIndicators]="true"
+    [useKeyboard]="true"
+    [useMouseWheel]="false"
+    orientation="ltr"
+  >
+    <mat-carousel-slide
+      #matCarouselSlide
+      *ngFor="let slide of slides; let i = index"
+      [image]="slide.image"
+      overlayColor="#00000040"
+      [hideOverlay]="false"
+    ></mat-carousel-slide>
+  </mat-carousel>
+  </div>  -->
+  <div cdkDropList (cdkDropListDropped)="drop($event)" class="example-list" fxLayout="column" fxLayoutGap="20px">
+    <div *ngFor="let detail of empDetails" cdkDrag class="mouse-drag">
+      <div class="example-custom-placeholder" *cdkDragPlaceholder></div>
+      <div fxLayout="row" fxLayoutAlign="space-between center" class="white-bg">
+        <div fxFlex="20">
+          <div fxLayout="row" fxLayoutGap="10px">
+            <img src="assets/images/svg/user-img.svg" height="40" width="40" class="full-bor-radius">
+            <div fxLayout="column">
+              <p>{{detail.name}}</p>
+              <p>{{detail.post}}</p>
+              <p>{{detail.location}}</p>
+            </div>
+          </div>
+        </div>
+        <div fxFlex="50" fxLayout="row">
+          <div fxFlex="20" fxLayout="column" fxLayoutAlign="center center" class="separator-right p-20">
+            <mat-icon>thumb_up</mat-icon>
+            <p>{{detail.status}}</p>
+            <p class="bold">{{detail.hiringDate}}</p>
+          </div>
+          <div fxFlex="20" fxLayout="column" fxLayoutAlign="center center" class="separator-right p-20">
+            <p>{{detail.feedback}}</p>
+          </div>
+          <div fxFlex="20" fxLayout="column" fxLayoutAlign="center center" class="separator-right p-20">
+            <mat-icon>remove_circle_outline</mat-icon>
+            <p>{{detail.process}}</p>
+            <p class="bold">{{detail.processDate}}</p>
+          </div>
+          <div fxFlex="20" fxLayout="column" fxLayoutAlign="center center" class="separator-right">
+            <mat-icon>calendar_today</mat-icon>
+            <p class="bold">{{detail.date}}</p>
+          </div>
+          <div fxFlex="10" fxLayout="column" fxLayoutAlign="center center" class="separator-right p-20">
+            <p>{{detail.refNo}}</p>
+          </div>
+          <div fxFlex="10" fxLayout="column" fxLayoutAlign="center center" class=" p-20">
+            <p>{{detail.refTwoNo}}</p>
+          </div>
+        </div>
+        <div fxFlex="30" fxLayout="row" fxLayoutAlign="start center">
+          <p>
+            {{detail.comment}}
+          </p>
+          <a mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>more_vert</mat-icon>
+          </a>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <span>EDIT COMMENT</span>
+            </button>
+            <button mat-menu-item>
+              <span>HIDE CANDIDATE</span>
+            </button>
+          </mat-menu>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

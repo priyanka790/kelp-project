@@ -1,4 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "NunitoSans" !important;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8A8A8A;
+}
+.main-container{
+  background-color: #F2F2F2;
+  padding: 37px;
+}
+.mat-body p, .mat-body-1 p, .mat-typography p{
+  margin: 0 0 0px;
+}
+.mat-body, .mat-body-1, .mat-typography{
+  font: 400 14px/20px "NunitoSans";
+}
+.bold{
+  color: #2D2D2D;
+}
+.separator-right{
+  border-right: 1px solid #E6E6E6; ;
+
+
+}
+.full-bor-radius{
+  border-radius: 100%;
+}
+
+.mat-menu-item .mat-icon{
+  margin-right: 0!important;
+}
+
+.text-center{
+  text-align: center;
+}
+.p-20{
+  padding: 20px;
+}
+.mouse-drag{
+  cursor: move;
+}
+.full-height{
+  height: 100%;
+}
+.full-width{
+  width: 100%;
+}
+.pt-15{
+  padding-top: 15px;
+}
