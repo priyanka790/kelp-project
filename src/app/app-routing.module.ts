@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { EmpDirectoryComponent } from './comonents/emp-directory/emp-directory.component';
+import { EmpDirectoryComponent } from './components/emp-directory/emp-directory.component';
 
 const routes: Routes = [
   {
