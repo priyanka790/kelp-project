@@ -55,3 +55,29 @@ body {
 .pt-15{
   padding-top: 15px;
 }
+a{
+  cursor: pointer;
+}
+.red-text{
+  color: #E02020;
+}
+.ico-small{
+  height: 24px;
+  width: 24px;
+}
+.ico-mini{
+  height: 16px;
+  width: 16px;
+}
+.thumb-green-ico{
+  background:url(../src/assets/images/svg/thumb-green-ico.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.thumb-grey-ico{
+  background:url(../src/assets/images/svg/thumb-grey-ico.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}

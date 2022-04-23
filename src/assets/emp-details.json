@@ -12,13 +12,14 @@
       "date":"1 Jul 2018",
       "refNo":7,
       "refTwoNo":3,
+      "isActive": true,
       "comment":"Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet vulputate.teamelatea aliquet vulputate. Egestas. Lacinia ultrices QuisqueQuisqueQuisqueQuklloojjdjuee"
     },
     {
       "name": "Kunjan Kumar",
       "post":"Director, Piramal Enterprises",
       "location": "Mumbai",
-      "logo": "value_behavior_logo",
+
       "status": "hire",
       "hiringDate":"1 Jul 2018",
       "feedback":"Awaiting Feedback",
@@ -27,13 +28,13 @@
       "date":"1 Jul 2018",
       "refNo":7,
       "refTwoNo":3,
+      "isActive": true,
       "comment":"No Comments"
     },
     {
       "name": "Kunal Kamra",
       "post":"Director, Piramal Enterprises",
       "location": "Mumbai",
-      "logo": "value_behavior_logo",
       "status": "hire",
       "hiringDate":"1 Jul 2018",
       "feedback":"Awaiting Feedback",
@@ -42,6 +43,7 @@
       "date":"1 Jul 2018",
       "refNo":7,
       "refTwoNo":3,
+      "isActive": false,
       "comment":"Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet vulputate.teame"
     }
   ],

@@ -1,11 +1,11 @@
 .emp-det-wrapper .white-bg {
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #f3f3f3;
 }
 .emp-det-wrapper .rounded-circle {
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,17 +15,9 @@
 }
 .emp-det-wrapper .thumb-ico {
   color: white;
-}
-.emp-det-wrapper .red-bg {
-  background-color: #f36c6e;
-}
-/* .emp-det-wrapper .green-bg{
-  background-color: #9EC74A;
-} */
-.carousel-slide,
-.carouse {
-  height: 20px;
-  width: 20px;
+  font-size: 16px;
+  height: 16px;
+  width: 16px;
 }
 
 .cdk-drag-preview {
@@ -52,7 +44,7 @@
 .emp-det-wrapper .example-custom-placeholder {
   background: #ccc;
   border: dotted 3px #999;
-
+  height: 100px;
   transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
 }
 
@@ -79,7 +71,31 @@
   right: 0;
   transform: rotate(180deg);
 }
-.emp-det-wrapper .mat-icon.arrow-ico {
-  font-size: 40px;
-  color: black;
+.mat-icon.mat-ico-bg{
+  background-color: red;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  color: white;
 }
+.mat-icon.mat-ico-bg.red-bg
+{
+  background: #F36C6E;
+}
+.mat-icon.mat-ico-bg.green-bg
+{
+  background: #9ec74a;
+}
+
+.mat-icon.orange-color{
+  color: orange !important;
+  font-size: 30px;
+  width: 30px;
+}
+
+

@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { EmpDirectoryComponent } from './components/emp-directory/emp-directory.component';
+
 
 const routes: Routes = [
   {
-    path: 'employee-details',
-    component: EmpDirectoryComponent,
+    path: '',
+   loadChildren:() => 
+    import('./components/emp-directory/emp-directory.module').then(m => m.EmpDirectoryModule)
+
   },
-  { path: '', redirectTo: '/employee-details', pathMatch: 'full' },
+
 ];
 
 @NgModule({
