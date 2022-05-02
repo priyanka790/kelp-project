@@ -3,12 +3,12 @@
 html,
 body {
   height: 100%;
+  font-size: 16rem;
 }
 body {
   margin: 0;
   font-family: "NunitoSans" !important;
   font-weight: 400;
-  font-size: 14px;
   color: #8A8A8A;
 }
 .main-container{

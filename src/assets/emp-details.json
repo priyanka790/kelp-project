@@ -4,6 +4,7 @@
       "name": "Aniket Joshi",
       "post":"Director, Piramal Enterprises",
       "location": "Mumbai",
+      "img": "assets/images/svg/thumb-green-ico.svg",
       "status": "hire",
       "hiringDate":"1 Jul 2018",
       "feedback":"Awaiting Feedback",
@@ -11,6 +12,7 @@
       "processDate":"1 Jul 2018",
       "date":"1 Jul 2018",
       "refNo":7,
+    
       "refTwoNo":3,
       "isActive": true,
       "comment":"Metus etiam. Platea aliquet vulputate. Egestas. Lacinia ultrices. Pharetra. Quisque odio morbi sod tea aliquet vulputate.teamelatea aliquet vulputate. Egestas. Lacinia ultrices QuisqueQuisqueQuisqueQuklloojjdjuee"
@@ -19,7 +21,7 @@
       "name": "Kunjan Kumar",
       "post":"Director, Piramal Enterprises",
       "location": "Mumbai",
-
+      "img": "assets/images/svg/thumb-green-ico.svg",
       "status": "hire",
       "hiringDate":"1 Jul 2018",
       "feedback":"Awaiting Feedback",
@@ -35,6 +37,7 @@
       "name": "Kunal Kamra",
       "post":"Director, Piramal Enterprises",
       "location": "Mumbai",
+      "img": "assets/images/svg/thumb-green-ico.svg",
       "status": "hire",
       "hiringDate":"1 Jul 2018",
       "feedback":"Awaiting Feedback",

@@ -10,6 +10,8 @@ import { MatMenu } from '@angular/material/menu';
 export class EmpDirectoryComponent implements OnInit {
   empDetails: any = [];
 
+
+
   // slides = [
   //   {'image': '/assets/images/svg/user-img.svg'},
   //   {'image': '/assets/images/svg/user-img.svg'},
@@ -23,6 +25,7 @@ export class EmpDirectoryComponent implements OnInit {
   ngOnInit(): void {
     this.getEmpDetails();
   }
+
 
   getEmpDetails() {
     this.httpClient.get('assets/emp-details.json').subscribe((data: any) => {
